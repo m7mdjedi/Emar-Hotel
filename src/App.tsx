@@ -1,4 +1,4 @@
-import NavBar from "./components/NavBar";
+
 import Homee from "./pages/Homee";
 import AboutUs from "./pages/AboutUs";
 import Leadership from "./pages/Leadership";

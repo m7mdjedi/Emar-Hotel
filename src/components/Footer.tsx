@@ -1,6 +1,5 @@
 import classes from "../styles/home.module.css";
-import { FaArrowLeft } from "react-icons/fa6";
-import logoImg from "../assets/mos2.png";
+
 import { Link } from "react-router-dom";
 import SocialContact from "./SocialContact";
 const Footer = () => {

@@ -1,4 +1,4 @@
-import { CiMail } from "react-icons/ci";
+
 import { FaPhoneAlt } from "react-icons/fa";
 import classes from '../styles/socialNumAndMail.module.css'
 import { IoMdMail } from "react-icons/io";

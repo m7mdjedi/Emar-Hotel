@@ -1,6 +1,5 @@
 import { useTranslation } from "react-i18next";
 import classes from "../styles/navBar.module.css";
-import logoImg from "../assets/mos2.png";
 import { useState } from "react";
 
 import { Link, NavLink } from "react-router-dom";

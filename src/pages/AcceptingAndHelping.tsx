@@ -9,7 +9,7 @@ import men6 from '../assets/hot27.jfif'
 
 import { useEffect } from "react";
 
-const newLocal = "يوجد العديد من كراجات السيارات المتطورة التي تللبي احتيجات نزلائنا وتوفر... ";
+// const newLocal = "يوجد العديد من كراجات السيارات المتطورة التي تللبي احتيجات نزلائنا وتوفر... ";
 const leadershipAr = [
   {
     id: 1,
