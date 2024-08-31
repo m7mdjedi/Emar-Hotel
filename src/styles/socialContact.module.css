@@ -1,0 +1,75 @@
+.socialContact{ 
+    display:flex; 
+    gap:20px; 
+    padding:10px 10px
+}  
+.socialContact > a { 
+    cursor:pointer; 
+    transition:all .3s linear;
+
+    border-radius:50%; 
+    display:flex;
+     
+    align-items:center;
+    justify-content:center;
+}
+.yo{ 
+  color:var(--mainColor);
+  /* color:white; */
+} 
+.yo:hover{ 
+ 
+    color:var(--mainColor);
+}
+.fa{ 
+  color:var(--mainColor);
+    /* color:white; */
+  } 
+  .fa:hover{ 
+    color:var(--mainColor);
+    /* color:var(--mainColor);  */
+  }
+  .tw{ 
+    color:var(--mainColor);
+    /* background:#000;
+    color:white; */
+  } 
+  .tw:hover{ 
+    color:var(--mainColor);
+      /* background:#fff; 
+      color:#000; */
+  }
+
+
+  .li{ 
+    color:var(--mainColor);
+    /* background:#4968ad;
+    color:white; */
+  } 
+  .li:hover{ 
+    color:var(--mainColor);
+      /* background:#fff; 
+      color:#4968ad; */
+  }
+  .gi{ 
+    color:var(--mainColor);
+    /* background:#000;
+    color:white; */
+  } 
+  .gi:hover{ 
+    color:var(--mainColor);
+      /* background:#fff; 
+      color:#000; */
+  }
+  .wh{ 
+    /* color:#25d366;
+    background:white; */
+    /* color:white;  */
+    color:var(--mainColor);
+  } 
+  .wh:hover{ 
+      /* color:#fff; 
+      background:#25d366; */
+      /* color:var(--mainColor); */
+      color:var(--mainColor);
+  }

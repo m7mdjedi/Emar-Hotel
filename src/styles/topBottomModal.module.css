@@ -1,0 +1,34 @@
+.modalParent{ 
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    z-index:100; 
+    display:flex; 
+    justify-content:center;
+}
+.modal{ 
+    position:absolute; 
+    font-size:min(5vw,30px);
+    font-weight:bold;
+    top:-100%;
+    left:50%;
+    transform:translate(-50%);
+    color:var(--thirdColor);
+    animation-name: move;
+  animation-duration: 4s;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+  padding:15px 25px; 
+  background:var(--mainColor); 
+  cursor:pointer; 
+
+   
+}
+.modal:hover{ 
+    background:#ffb74d;
+
+}
+@keyframes move {
+    from { top:-100%; }
+    to { top:60% }
+  }

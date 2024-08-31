@@ -1,0 +1,22 @@
+.socialNumAndMail{ 
+    display:flex; 
+    gap:20px;
+    align-items:center;
+    padding:0 20px
+}
+.socialNumAndMail > div{ 
+    display:flex;
+    align-items:center;
+    gap:5px;
+    color:var(--secondColor);   
+    letter-spacing:.5px
+}
+.socialNumAndMail .ph{ 
+    color:var(--mainColor);
+    /* background:var(--mainColor);  */
+} 
+
+.socialNumAndMail .ma{ 
+    color:var(--mainColor);
+    /* background:var(--mainColor);  */
+}

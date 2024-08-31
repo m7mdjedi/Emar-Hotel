@@ -1,0 +1,369 @@
+.home{ 
+position:relative;
+} 
+.home > div:first-child{ 
+  width:100%; 
+  background:rgba(0,0,0,0.6);
+  height:100vh;
+  z-index:100; 
+  position:absolute;
+  top:0;
+  left:0;
+  display:flex; 
+  align-items:center; 
+  justify-content:center;
+}
+.typewriter > h1:nth-child(1) {
+  direction:rtl;
+  text-align:center;
+  font-size:min(7vw,100px);
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-left: .15em solid var(--fifthColor); /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  /* letter-spacing: .15em; Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+
+.homeAboutUs {
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items:center;   
+  
+  padding: 5rem 0;
+}
+
+.homeAboutUs .homeAboutUsImgDiv {
+  width: 300px; 
+  height:300px;
+}
+.homeAboutUs .homeAboutUsImgDiv img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+}
+.homeAboutUs .homeAboutUsTextDiv {
+ 
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: var(--secondColor);
+}
+.homeAboutUs .homeAboutUsTextDiv h1 {
+  font-size: min(5vw, 100px);
+  text-align:center; 
+
+  color: var(--mainColor);
+}
+.homeAboutUs .homeAboutUsTextDiv .show {
+  font-weight: 700;
+  margin: 0;
+
+  animation: fadeIn 1s ease-in-out;
+}
+
+.homeAboutUs .homeAboutUsTextDiv p {
+  font-size: min(5vw, 25px);
+ 
+  line-height: 3rem;
+  word-spacing:.3rem; 
+  width:100%; 
+  text-align:center;
+  color:#505050;
+  
+}
+.homeLocation {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background-color: var(--fourthColor);
+  padding: 3rem 0; 
+  color:var(--mainColor)
+}
+
+.homeLocation .homeLocationTextDiv {
+
+  width: 100%;
+  text-align: center;
+
+}
+.homeLocation .homeLocationTextDiv h1 {
+  font-size: min(5vw, 100px);
+}
+
+.homeLocation .homeLocationTextDiv .show {
+  font-weight: 700;
+  margin: 0;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.homeLocation .homeLocationImgDev {
+  width: 100%;
+ 
+  over-flow: hidden;
+  display:flex; 
+  justify-content:center;
+} 
+.homeLocation .homeLocationImgDev > img{ 
+  width: max(400px ,70%);
+  height:400px;
+}
+
+.home_about_school {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: var(--fourthColor);
+}
+.home_about_school .home_about_school_text {
+  width: 80%;
+  padding: 20px;
+  /* background: var(--thirdColor); */
+  /* background-image:url('/src/assets/mos30.png'); */
+
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
+}
+.home_about_school .home_about_school_text h1 {
+  margin: 0;
+  font-size: min(7vw, 100px);
+  color:var(--mainColor);
+}
+.home_about_school .home_about_school_text .show {
+  font-weight: 700;
+  margin: 0;
+  animation: fadeIn 1s ease-in-out;
+}
+.home_about_school .home_about_school_text p {
+  font-size: min(3vw, 25px);
+  color:#505050;
+}
+.home_about_school .home_about_school_img {
+  margin-top: -10px;
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+  width:300px;
+  height:300px;
+  color:#505050;
+}
+.home_about_school .home_about_school_img img {
+  width: 100%; 
+  height:100%; 
+} 
+ 
+
+.home_registeration{ 
+
+     
+      
+      background:var(--secondColor);
+      background-image:url('/src/assets/mos30.png');
+
+
+      color:var(--fourthColor);  
+      display:flex; 
+      justify-content:center;
+      align-items:center; 
+      flex-direction:column; 
+} 
+
+.home_registeration > h2{ 
+
+  font-size:min(20vw,100px); 
+   
+}  
+.home_registeration > div{ 
+  margin-top:50px;  
+  display:flex; 
+  justify-content:center; 
+  align-items:center; 
+  flex-direction:column; 
+  gap:20px ;
+} 
+.home_registeration a{ 
+  text-decoration:none;
+}
+.home_registeration button{ 
+  padding:3vh 3vw;
+  border:none; 
+  background:var(--fifthColor);
+  color:var(--fourthColor);
+  display:flex; 
+  align-items:center; 
+  gap:5px; 
+  cursor:pointer;  
+  font-size:min(3vw,25px);
+}
+.home_registeration  p{ 
+  
+  font-size:min(4vw,25px); 
+}
+.footer{ 
+
+  background:var(--secondColor); 
+  /* background-image:url('/src/assets/mos30.png'); */
+
+  display:flex; 
+  flex-direction:column; 
+  justify-content:center;
+  align-items:center;
+  padding:50px 50px 20px ;
+  gap:30px
+} 
+.footer_section{ 
+  display:flex;
+  justify-content:center;
+
+  width:100%;
+} 
+.footer_section .footer_left{ 
+  display:none; 
+  justify-content:space-around;
+
+  flex:1;
+}
+.footer_section .footer_left h3{ 
+  font-size:25px; 
+  margin-bottom:40px;
+}
+.footer_section .footer_left ul{ 
+  list-style:none;
+  padding:0;
+
+} 
+.footer_section .footer_left ul li{ 
+  margin-bottom:10px;
+  font-size:18px; 
+  display:flex; 
+  justify-content:right; 
+  cursor:pointer;
+}
+.footer_section .footer_left ul li > a { 
+ color:#fff;
+  text-decoration:none; 
+  
+}
+.footer_section .footer_left ul li:hover > a { 
+  color:var(--mainColor);
+}
+.footer_section .footer_right > div { 
+  display:flex;
+  flex-direction:column;
+  align-items:center; 
+  justify-content:flex-start;
+  gap:20px;
+}
+.footer_section h1{ 
+  color:var(--mainColor);
+}
+.footer_section img{ 
+  width:300px; 
+  height:200px;
+}
+@media (min-width:687px){ 
+  .home_about_registeration .home_about_registeration_section div:nth-child(3){ 
+    width:fit-content;
+  
+  } 
+  .home_about_registeration .move_left{ 
+    margin-left:-50px; 
+    transition:all 1s linear; 
+  }
+  .home_about_registeration .move_right{ 
+    margin-right:-50px; 
+    transition:all 1s linear; 
+  }
+  .home_gallery { 
+    
+    flex-direction:row; 
+    justify-content:center;
+  } 
+}
+@media (min-width: 1045px) {
+  .home_about_school {
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  .home_about_school .home_about_school_text {
+    width: 60%;
+  }
+  .home_about_school_img {
+    margin-right: -15px;
+    z-index: 10;
+  }
+  .homeAboutUs .homeAboutUsTextDiv h1{ 
+    text-align:right;
+    padding-right:5rem;
+  }
+  .homeAboutUs .homeAboutUsTextDiv p {
+    padding-right:5rem; 
+    text-align:right;
+  }
+  .footer_section .footer_left{  
+    display:flex; 
+  }
+}
+@media (max-width: 1045px) {
+  .homeAboutUs {
+    flex-direction: column-reverse;
+  }
+  .homeAboutUs .homeImgDiv {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .homeAboutUs .homeImgDiv img {
+    width: 400px;
+  }
+  .homeAboutUs .homeTextDiv {
+    padding: 0;
+  }
+  .homeAboutUs .homeTextDiv h1 {
+    font-size: 1.5rem;
+    text-align: center;
+    width: 100%;
+    margin-top: 1rem;
+  }
+  .homeAboutUs .homeTextDiv p {
+    font-family: url("../fonts/alfont_com_VEXA-.ttf.ttf");
+    font-size: 1rem;
+    text-align: center;
+    padding: 0 1rem;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: var(--fifthColor); }
+}
+
+
