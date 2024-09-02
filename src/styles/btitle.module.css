@@ -1,0 +1,15 @@
+.btitle{ 
+    width:100%; 
+} 
+
+.btitle > span{ 
+    width:100px; 
+    height:2px; 
+    background:var(--mainColor); 
+    border-radius:2px; 
+} 
+
+.btitle > p{
+    font-weight:bold; 
+    font-size:min(5vw,25px);
+}

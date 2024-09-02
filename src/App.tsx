@@ -11,12 +11,14 @@ import StudentPage from "./pages/StudentPage";
 import Footer from "./components/Footer";
 import AboutUsPage from "./pages/AboutUsPage";
 import NavBar2 from "./components/NavBar2";
+import GoTopButton from "./components/GoTopButton";
 
 
 function BasicLayout() {
   return (
     <>
       <NavBar2 />
+      <GoTopButton/>
       <Outlet />
       <Footer />
     </>
